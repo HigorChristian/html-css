@@ -1,0 +1,44 @@
+body{background: #1a1a1a;
+text-align: center;}
+
+
+.circle{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(120deg, #8E2DE2, #4A00E0);
+}
+
+
+.circle01{
+    top: -10%;
+    left: 700px;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    background: linear-gradient(120deg, #ff00d9, #1d0dff);
+}
+
+.circle02{
+    bottom: 10%;
+    left: 5%;
+    background: linear-gradient(120deg, #00eeff, #2200ff);
+
+}
+
+.card{
+    position: relative;
+    z-index: 1;
+    width: 400px;
+    height: 300px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 1rem;
+    margin: auto;
+    box-shadow: -10px -10px 20px rgba(0, 0, 0, 0.415);
+    backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
+}

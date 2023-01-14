@@ -1,0 +1,83 @@
+@charset "UTF-8";
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background: url(../imagens/fundo-madeira.jpg) no-repeat center top fixed;
+    background-size: cover
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+section#cell{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../imagens/frame-iphone.png) no-repeat;
+    height: 627px;
+    width: 311px;
+}
+
+section>iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 267px;
+}
+
+
+
+section#social img{
+    margin-left: 1000px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.185);
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+section#social img:hover{
+    border:1px solid rgba(255, 255, 255, 0.372);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.359);
+    transition: 0.5s ;
+}
+
+img#github{
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+img#insta{
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+img#yt{
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+img#twitter{
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+img#home{
+    height: 60px;
+    border-radius: 50%;
+    margin-top:180px;
+}
